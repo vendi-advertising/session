@@ -1,0 +1,24 @@
+{
+    "name": "laraport/session",
+    "description": "Unofficial port of laravel's illuminate/session.",
+    "keywords": ["standalone", "session", "illuminate", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "M. Kamal Khan",
+            "email": "shout@bhittani.com",
+            "homepage": "http://bhittani.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laraport\\Session\\": "src"
+        }
+    }
+}
