@@ -8,7 +8,7 @@ This port currently supports the following drivers:
 - Database
 - PHP's [SessionHandlerInterface](http://php.net/manual/en/class.sessionhandlerinterface.php) implementation
 
-> Requires PHP 5.4 or greater.
+> Requires PHP 7.1 or greater.
 
 I have tried my best to load the minimum required libraries and have avoided laravel's container to ensure maximum portability.
 
