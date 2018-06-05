@@ -69,7 +69,7 @@ class Session extends Store
 
     protected function fileHandler()
     {
-        return new FileSessionHandler(new Filesystem, $this->config['files']);
+        return new FileSessionHandler(new Filesystem, $this->config['files'], $this->config['lifetime']);
     }
 
     protected function databaseHandler()
@@ -88,7 +88,7 @@ class Session extends Store
 				$Table->integer('last_activity');
 			});
 		}
-        return new DatabaseSessionHandler($Connection, $this->config['table']);
+        return new DatabaseSessionHandler($Connection, $this->config['table'], $this->config['lifetime']);
     }
 
     public function setConfig(array $config)
