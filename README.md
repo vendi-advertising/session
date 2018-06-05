@@ -1,4 +1,4 @@
-Laraport Session [![Build Status](https://travis-ci.org/laraport/session.svg?branch=master)](https://travis-ci.org/laraport/session)
+Laraport Session [![Build Status](https://travis-ci.org/vendi-advertising/session.svg?branch=master)](https://travis-ci.org/vendi-advertising/session)
 ======
 This php library is an unofficial port of [laravel](http://laravel.com/) (L4) sessions. See [illuminate/session](https://github.com/illuminate/session/tree/4.2) for more details. The reason for this port is to consume it outside of laravel in a standalone project or another framework, where you find it tediuos to import the whole laravel framework.
 
