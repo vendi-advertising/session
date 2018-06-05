@@ -11,9 +11,10 @@
 
 use Laraport\Session;
 use Illuminate\Database\Capsule\Manager;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpFoundation\Session\Storage\Handler\NullSessionHandler;
 
-class SessionTest extends PHPUnit_Framework_TestCase
+class SessionTest extends TestCase
 {
     protected $defaultConfig;
 
