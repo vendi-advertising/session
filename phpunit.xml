@@ -8,7 +8,7 @@
          convertWarningsToExceptions="true"
          processIsolation="true"
          stopOnFailure="true"
-         syntaxCheck="false">
+         >
     <testsuites>
         <testsuite name="laraport/session">
             <directory suffix=".php">./test/</directory>

@@ -130,7 +130,7 @@ class SessionTest extends TestCase
 
             $this->assertEquals(1, count($results));
             $row = array_shift($results);
-            $this->assertEquals($sid, $row['id']);
+            $this->assertEquals($sid, $row->id);
 
             unlink($connection['database']);
         });
