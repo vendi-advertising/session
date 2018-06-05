@@ -1,5 +1,5 @@
 {
-    "name": "laraport/session",
+    "name": "vendi-advertising/session",
     "description": "Unofficial port of laravel's illuminate/session.",
     "keywords": ["standalone", "session", "illuminate", "laravel"],
     "license": "MIT",
@@ -11,13 +11,13 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "illuminate/session": "^4.2.17",
-        "illuminate/database": "^4.2.17",
-        "illuminate/filesystem": "^4.2.17"
+        "php": ">=7.2",
+        "illuminate/session": "^5",
+        "illuminate/database": "^5",
+        "illuminate/filesystem": "^5"
     },
     "require-dev": {
-        "phpunit/phpunit": "4.*"
+        "phpunit/phpunit": "*"
     },
     "autoload": {
         "psr-4": {
